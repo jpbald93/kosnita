@@ -12,7 +12,7 @@ export PATH="$HOME/.elan/bin:$PATH"
 cd "$(dirname "$0")" || exit 1
 NS="Kosnita"
 LIB="Kosnita"
-REQUIRED="Kosnita.kosnita Kosnita.core Kosnita.cert_den Kosnita.cert_conc Kosnita.collinear_of_cross Kosnita.cross_of_collinear Kosnita.dist_sq Kosnita.eqdist_iff Kosnita.perp_bisector_coord Kosnita.cross_ne_zero Kosnita.vadd_apply"
+REQUIRED="Kosnita.kosnita Kosnita.core Kosnita.cert_den Kosnita.cert_conc Kosnita.collinear_of_cross Kosnita.cross_of_collinear Kosnita.dist_sq Kosnita.eqdist_iff Kosnita.perp_bisector_coord Kosnita.cross_ne_zero Kosnita.vadd_apply Kosnita.l14b_points Kosnita.l14b_not_collinear Kosnita.l14_kosnita Kosnita.l14b_dist_eq_dist Kosnita.l14b_circumcenter Kosnita.l14b_not_collinear_of_cross Kosnita.l14w_kosnita Kosnita.Classical.cov_D5_obligation Kosnita.Classical.cov_D5_part Kosnita.Classical.cov_auxiliary_nondegenerate Kosnita.Classical.cov_D5_nonparallel_part Kosnita.Classical.cov_parallel_of_cross_zero Kosnita.Classical.cov_Kosnita_zero_locus Kosnita.Classical.cov_D5"
 SOURCES="Kosnita/*.lean Kosnita.lean"
 [ -e .lake/packages/mathlib ] || { echo "FAIL: Mathlib packages missing (run setup by hand)"; exit 1; }
 if [ "${SCAFFOLD:-0}" != "1" ]; then
